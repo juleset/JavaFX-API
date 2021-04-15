@@ -16,26 +16,6 @@ public class AlbumInMemoryDAO implements AlbumDAO {
         this.data.add(new Album("Toxic Avenger", " Ξ", 2016));
     }
 
-    /*public static class GetExample {
-        OkHttpClient client = new OkHttpClient();
-
-        String run(String url) throws IOException {
-            Request request = new Request.Builder()
-                    .url(url)
-                    .build();
-
-            try (Response response = client.newCall(request).execute()) {
-                return response.body().string();
-            }
-        }
-
-        public static void main(String[] args) throws IOException {
-            GetExample example = new GetExample();
-            String response = example.run("https://raw.github.com/square/okhttp/master/README.md");
-            System.out.println(response);
-        }
-    }*/
-
 
     @Override
     public List<Album> getAll() {

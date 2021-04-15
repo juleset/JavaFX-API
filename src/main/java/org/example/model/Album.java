@@ -4,19 +4,19 @@ import java.util.UUID;
 
 public class Album {
     private final UUID id;
-    private String artist;
+    private String artist_id;
     private String title;
     private Integer year;
 
     public Album(String artist, String title, Integer year) {
         this.id = UUID.randomUUID();
-        this.artist = artist;
+        this.artist_id = artist;
         this.title = title;
         this.year = year;
     }
 
     public String getArtist() {
-        return artist;
+        return artist_id;
     }
 
     public String getTitle() {
