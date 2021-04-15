@@ -2,6 +2,7 @@ package org.example.dao;
 
 import org.example.model.Album;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

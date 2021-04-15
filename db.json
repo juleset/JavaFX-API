@@ -1,0 +1,28 @@
+{
+  "albums": [
+    {
+      "uuid": "460a6c82-20b7-4215-8f8c-f714940e7bb2",
+      "artist": "Kanye West",
+      "title": "The life of Pablo",
+      "year": 2015
+    },
+    {
+      "uuid": "0f14259f-e73b-4b02-ad59-af2ba3a02c5b",
+      "artist": "Travis Scott",
+      "title": "Astroworld",
+      "year": 2018
+    },
+    {
+      "uuid": "b0c5aef2-f9a7-4ff9-88cd-748056e9c860",
+      "artist": "Logic",
+      "title": "Under Pressure",
+      "year": 2013
+    },
+    {
+      "id": "4750108d-0945-4cb2-8c05-ecfdd44c7a2a",
+      "artist": "test",
+      "title": "test",
+      "year": 2020
+    }
+  ]
+}
